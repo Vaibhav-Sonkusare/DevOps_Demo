@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  web:
+    image: devops-html-demo
+    build: .
+    ports:
+      - "8080:80"
